@@ -7,12 +7,13 @@
     "url": "https://github.com/HyoJeungchoi/wetube-reloaded"
   },
   "scripts": {
-    "dev": "nodemon --exec babel-node src/server.js"
+    "dev": "nodemon --exec babel-node src/init.js"
   },
   "author": "hyojeung",
   "license": "MIT",
   "dependencies": {
     "express": "^4.21.0",
+    "mongoose": "^8.6.2",
     "morgan": "^1.10.0",
     "pug": "^3.0.3"
   },
